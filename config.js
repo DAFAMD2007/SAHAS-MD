@@ -3,11 +3,11 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "5HsEiSaB#tLPBRH2OHG_aBYEDJhZXxgJ7DtcEsXHFG_gZdszB8U0",
+  SESSION_ID: process.env.SESSION_ID || "BelF1LgA#PB4WXpl3Cm37mVx4K-7C3DAmgWpkR4A0wCzlN53ZCnE",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
-  PREFIX: process.env.PREFIX || ".",
+  PREFIX: process.env.PREFIX || ":",
   // Add Your Custom Prefix 
   mode: process.env.mode || "public",
   // Add Your Bot Mode 
@@ -15,13 +15,13 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94759900301",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94724087485",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
-  ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
+  ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo,hukanno,ponnya").split(','),
   ANTI_LINK: process.env.ANTILINK || "true",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "false",
